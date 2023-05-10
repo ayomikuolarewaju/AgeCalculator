@@ -34,7 +34,7 @@ const getdate =()=>{
 </script>
 
 
-<div class="flex flex-col container mx-auto md:w-1/3 md:h-2/3 bg-white md:my-auto 
+<div class="flex flex-col container mx-auto md:w-auto md:h-auto bg-white md:my-auto 
 rounded-tl-xl rounded-tr-xl rounded-bl-xl rounded-br-3xl my-5 shadow-lg p-5 h-auto">
 <div class="flex flex-col pt-2 m-5">
     <form class="flex flex-col  border-gray-600 space-x-10" on:click|preventDefault on:keydown>
@@ -72,9 +72,9 @@ rounded-tl-xl rounded-tr-xl rounded-bl-xl rounded-br-3xl my-5 shadow-lg p-5 h-au
      {:else}
      <small class="hidden"> Fields are required </small>
      {/if}
-     <div class="flex flex-col pt-10 relative pr-2">
-        <p class="border-b-2 border-gray-700 relative -left-2"></p>
-        <button class="bg-black rounded-full text-center p-6 h-20 w-20 absolute left-80 top-0" on:click|preventDefault={getdate} on:keydown>
+     <div class="flex flex-col pt-10 relative">
+        <p class="border-b-2 border-gray-700 relative -left-0"></p>
+        <button class="bg-black rounded-full text-center p-6 h-20 w-20 absolute left-48 top-0" on:click|preventDefault={getdate} on:keydown>
             <img src="{img1}" alt="" srcset="">
         </button>
     </div>
