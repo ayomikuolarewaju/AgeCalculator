@@ -73,17 +73,17 @@ rounded-tl-xl rounded-tr-xl rounded-bl-xl rounded-br-3xl my-5 shadow-lg p-5 h-au
      <small class="hidden"> Fields are required </small>
      {/if}
      <div class="flex flex-col pt-10 relative">
-        <p class="border-b-2 border-gray-700 relative -left-0"></p>
-        <button class="bg-black rounded-full text-center p-6 h-20 w-20 absolute left-60 top-0" on:click|preventDefault={getdate} on:keydown>
+        <p class="border-b-2 border-gray-700 relative -left-0 pt-5"></p>
+        <button class="bg-blue-600 rounded-full text-center p-6 h-20 w-20 absolute left-60 top-5 " on:click|preventDefault={getdate} on:keydown>
             <img src="{img1}" alt="" srcset="">
         </button>
     </div>
     </form>
    {#if old == false}
    <div class="flex flex-col p-15 items-left">
-    <h3 class="text-6xl font-bold font-PoppinsBold">...years</h3>
-    <h3 class="text-6xl font-bold font-PoppinsBold">...months</h3>
-    <h3 class="text-6xl font-bold font-PoppinsBold">...days</h3>
+    <h3 class="text-6xl font-bold font-PoppinsBold"><strong class="text-blue-600">...</strong>years</h3>
+    <h3 class="text-6xl font-bold font-PoppinsBold"><strong class="text-blue-600">...</strong>months</h3>
+    <h3 class="text-6xl font-bold font-PoppinsBold"><strong class="text-blue-600">...</strong>days</h3>
     </div>
     {:else}
     <div class="flex flex-col p-15 items-left">
