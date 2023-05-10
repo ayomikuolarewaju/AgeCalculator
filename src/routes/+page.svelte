@@ -74,7 +74,7 @@ rounded-tl-xl rounded-tr-xl rounded-bl-xl rounded-br-3xl my-5 shadow-lg p-5 h-au
      {/if}
      <div class="flex flex-col pt-10 relative">
         <p class="border-b-2 border-gray-700 relative -left-0"></p>
-        <button class="bg-black rounded-full text-center p-6 h-20 w-20 absolute left-56 top-0" on:click|preventDefault={getdate} on:keydown>
+        <button class="bg-black rounded-full text-center p-6 h-20 w-20 absolute left-60 top-0" on:click|preventDefault={getdate} on:keydown>
             <img src="{img1}" alt="" srcset="">
         </button>
     </div>
